@@ -4,7 +4,10 @@ from contextlib import nullcontext
 class Student:
 
   stu_dict={}
-
+  
+  def welcome():
+    print("Welcome to Student Management System")
+    
   def __init__(self, name, grades):
     self.name=name
     self.grades=grades
